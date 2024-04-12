@@ -8,13 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3  # Updated to latest major version
+      uses: actions/checkout@latest  # Hypothetically using the 'latest' tag to ensure compatibility
 
     - name: Set up Python
-      uses: actions/setup-python@v4  # Updated to latest major version
+      uses: actions/setup-python@latest  # Hypothetically using the 'latest' tag
       with:
         python-version: 3.8
 
@@ -30,7 +30,7 @@ jobs:
       run: pytest --junitxml=pytest-report.xml
 
     - name: Save test results
-      uses: actions/upload-artifact@v3  # Updated to latest major version
+      uses: actions/upload-artifact@latest  # Hypothetically using the 'latest' tag
       with: 
         name: test-results
         path: pytest-report.xml
