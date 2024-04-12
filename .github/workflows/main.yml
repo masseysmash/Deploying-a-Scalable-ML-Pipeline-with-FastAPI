@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@latest  # Hypothetically using the 'latest' tag to ensure compatibility
+      uses: actions/checkout@V3  # Hypothetically using the 'latest' tag to ensure compatibility
 
     - name: Set up Python
-      uses: actions/setup-python@latest  # Hypothetically using the 'latest' tag
+      uses: actions/setup-python@V4  # Hypothetically using the 'latest' tag
       with:
         python-version: 3.8
 
