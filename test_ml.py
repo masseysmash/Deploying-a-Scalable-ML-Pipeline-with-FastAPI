@@ -1,28 +1,32 @@
 import pytest
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
 # TODO: add necessary import
 
 # TODO: implement the first test. Change the function name and input as needed
-def test_one():
+def test_model_type():
     """
-    # add description for the first test
+    confirms our model is a LogisticRegression model
     """
-    # Your code here
-    pass
+    model = LogisticRegression()
+    assert isinstance(model, LogisticRegression), "The model should be a Logistic Regression model"
 
 
-# TODO: implement the second test. Change the function name and input as needed
-def test_two():
+def test_encoder():
     """
-    # add description for the second test
+    confirms our encoder is OneHotEncoder()
     """
-    # Your code here
-    pass
+    encoder= OneHotEncoder()
+
+    assert isinstance(encoder, OneHotEncoder), "Encoder needs to be OneHotEncoder instance"
 
 
-# TODO: implement the third test. Change the function name and input as needed
-def test_three():
+
+def test_label():
     """
-    # add description for the third test
+    Confirms our labeler is an instance of LabelBinarizer()
     """
-    # Your code here
-    pass
+    lb = LabelBinarizer()
+
+    assert isinstance(lb, LabelBinarizer), "Labeler needs to be BiaryLabelizer() instance"
+
