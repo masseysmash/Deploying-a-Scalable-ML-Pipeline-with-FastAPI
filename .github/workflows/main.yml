@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # Updated to latest major version
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4  # Updated to latest major version
       with:
         python-version: 3.8
 
@@ -30,7 +30,7 @@ jobs:
       run: pytest --junitxml=pytest-report.xml
 
     - name: Save test results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3  # Updated to latest major version
       with: 
         name: test-results
         path: pytest-report.xml
