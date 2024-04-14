@@ -1,0 +1,202 @@
+workclass: ?, Count: 371
+Precision: 0.5789 | Recall: 0.2750 | F1: 0.3729
+workclass: Federal-gov, Count: 190
+Precision: 0.7273 | Recall: 0.2105 | F1: 0.3265
+workclass: Local-gov, Count: 432
+Precision: 0.6038 | Recall: 0.2581 | F1: 0.3616
+workclass: Never-worked, Count: 1
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+workclass: Private, Count: 4,542
+Precision: 0.6741 | Recall: 0.2406 | F1: 0.3546
+workclass: Self-emp-inc, Count: 217
+Precision: 0.9464 | Recall: 0.4206 | F1: 0.5824
+workclass: Self-emp-not-inc, Count: 497
+Precision: 0.7910 | Recall: 0.3292 | F1: 0.4649
+workclass: State-gov, Count: 258
+Precision: 0.9167 | Recall: 0.3333 | F1: 0.4889
+workclass: Without-pay, Count: 5
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: 10th, Count: 167
+Precision: 0.6667 | Recall: 0.5714 | F1: 0.6154
+education: 11th, Count: 232
+Precision: 0.5455 | Recall: 0.4286 | F1: 0.4800
+education: 12th, Count: 97
+Precision: 0.5000 | Recall: 0.2500 | F1: 0.3333
+education: 1st-4th, Count: 31
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: 5th-6th, Count: 63
+Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+education: 7th-8th, Count: 115
+Precision: 0.4286 | Recall: 0.5000 | F1: 0.4615
+education: 9th, Count: 108
+Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+education: Assoc-acdm, Count: 212
+Precision: 0.4706 | Recall: 0.1702 | F1: 0.2500
+education: Assoc-voc, Count: 263
+Precision: 0.5714 | Recall: 0.2540 | F1: 0.3516
+education: Bachelors, Count: 1,103
+Precision: 0.8012 | Recall: 0.2854 | F1: 0.4209
+education: Doctorate, Count: 90
+Precision: 1.0000 | Recall: 0.3182 | F1: 0.4828
+education: HS-grad, Count: 2,120
+Precision: 0.6232 | Recall: 0.2306 | F1: 0.3366
+education: Masters, Count: 322
+Precision: 0.8429 | Recall: 0.3533 | F1: 0.4979
+education: Preschool, Count: 13
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: Prof-school, Count: 123
+Precision: 0.9118 | Recall: 0.3444 | F1: 0.5000
+education: Some-college, Count: 1,454
+Precision: 0.6436 | Recall: 0.2124 | F1: 0.3194
+marital-status: Divorced, Count: 886
+Precision: 0.5000 | Recall: 0.2755 | F1: 0.3553
+marital-status: Married-AF-spouse, Count: 6
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+marital-status: Married-civ-spouse, Count: 3,007
+Precision: 0.8506 | Recall: 0.2599 | F1: 0.3982
+marital-status: Married-spouse-absent, Count: 91
+Precision: 0.5000 | Recall: 0.2500 | F1: 0.3333
+marital-status: Never-married, Count: 2,116
+Precision: 0.3500 | Recall: 0.3571 | F1: 0.3535
+marital-status: Separated, Count: 204
+Precision: 0.5455 | Recall: 0.4000 | F1: 0.4615
+marital-status: Widowed, Count: 203
+Precision: 0.3750 | Recall: 0.2857 | F1: 0.3243
+occupation: ?, Count: 372
+Precision: 0.5789 | Recall: 0.2750 | F1: 0.3729
+occupation: Adm-clerical, Count: 770
+Precision: 0.4630 | Recall: 0.2315 | F1: 0.3086
+occupation: Armed-Forces, Count: 1
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+occupation: Craft-repair, Count: 807
+Precision: 0.6393 | Recall: 0.1931 | F1: 0.2966
+occupation: Exec-managerial, Count: 803
+Precision: 0.8947 | Recall: 0.3260 | F1: 0.4779
+occupation: Farming-fishing, Count: 191
+Precision: 0.6000 | Recall: 0.3750 | F1: 0.4615
+occupation: Handlers-cleaners, Count: 266
+Precision: 0.3000 | Recall: 0.1765 | F1: 0.2222
+occupation: Machine-op-inspct, Count: 399
+Precision: 0.5238 | Recall: 0.1930 | F1: 0.2821
+occupation: Other-service, Count: 643
+Precision: 0.3158 | Recall: 0.2727 | F1: 0.2927
+occupation: Priv-house-serv, Count: 38
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+occupation: Prof-specialty, Count: 848
+Precision: 0.8000 | Recall: 0.2791 | F1: 0.4138
+occupation: Protective-serv, Count: 117
+Precision: 0.8182 | Recall: 0.2195 | F1: 0.3462
+occupation: Sales, Count: 729
+Precision: 0.7654 | Recall: 0.3085 | F1: 0.4397
+occupation: Tech-support, Count: 200
+Precision: 0.5000 | Recall: 0.1071 | F1: 0.1765
+occupation: Transport-moving, Count: 329
+Precision: 0.7241 | Recall: 0.2658 | F1: 0.3889
+relationship: Husband, Count: 2,646
+Precision: 0.8579 | Recall: 0.2636 | F1: 0.4033
+relationship: Not-in-family, Count: 1,684
+Precision: 0.4841 | Recall: 0.3177 | F1: 0.3836
+relationship: Other-relative, Count: 186
+Precision: 0.3333 | Recall: 0.3333 | F1: 0.3333
+relationship: Own-child, Count: 1,002
+Precision: 0.2083 | Recall: 0.6250 | F1: 0.3125
+relationship: Unmarried, Count: 676
+Precision: 0.3226 | Recall: 0.2500 | F1: 0.2817
+relationship: Wife, Count: 319
+Precision: 0.7750 | Recall: 0.2230 | F1: 0.3464
+race: Amer-Indian-Eskimo, Count: 62
+Precision: 0.3333 | Recall: 0.3333 | F1: 0.3333
+race: Asian-Pac-Islander, Count: 196
+Precision: 0.7333 | Recall: 0.2075 | F1: 0.3235
+race: Black, Count: 664
+Precision: 0.5238 | Recall: 0.2785 | F1: 0.3636
+race: Other, Count: 61
+Precision: 0.3333 | Recall: 0.3333 | F1: 0.3333
+race: White, Count: 5,530
+Precision: 0.7360 | Recall: 0.2695 | F1: 0.3946
+sex: Female, Count: 2,118
+Precision: 0.4615 | Recall: 0.2804 | F1: 0.3488
+sex: Male, Count: 4,395
+Precision: 0.7851 | Recall: 0.2664 | F1: 0.3978
+native-country: ?, Count: 124
+Precision: 0.5000 | Recall: 0.1724 | F1: 0.2564
+native-country: Cambodia, Count: 5
+Precision: 1.0000 | Recall: 0.3333 | F1: 0.5000
+native-country: Canada, Count: 26
+Precision: 0.1667 | Recall: 0.1429 | F1: 0.1538
+native-country: China, Count: 9
+Precision: 1.0000 | Recall: 0.2500 | F1: 0.4000
+native-country: Columbia, Count: 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Cuba, Count: 17
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Dominican-Republic, Count: 16
+Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country: Ecuador, Count: 1
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: El-Salvador, Count: 27
+Precision: 0.6667 | Recall: 0.4000 | F1: 0.5000
+native-country: England, Count: 20
+Precision: 1.0000 | Recall: 0.2000 | F1: 0.3333
+native-country: France, Count: 4
+Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+native-country: Germany, Count: 21
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Greece, Count: 4
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Guatemala, Count: 15
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Haiti, Count: 11
+Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Holand-Netherlands, Count: 1
+Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country: Hong, Count: 4
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Hungary, Count: 2
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: India, Count: 21
+Precision: 0.5000 | Recall: 0.1667 | F1: 0.2500
+native-country: Iran, Count: 15
+Precision: 1.0000 | Recall: 0.3333 | F1: 0.5000
+native-country: Ireland, Count: 4
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Italy, Count: 16
+Precision: 1.0000 | Recall: 0.2500 | F1: 0.4000
+native-country: Jamaica, Count: 17
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Japan, Count: 11
+Precision: 1.0000 | Recall: 0.2500 | F1: 0.4000
+native-country: Laos, Count: 3
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Mexico, Count: 131
+Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Nicaragua, Count: 7
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Outlying-US(Guam-USVI-etc), Count: 3
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Peru, Count: 6
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Philippines, Count: 42
+Precision: 0.8000 | Recall: 0.3077 | F1: 0.4444
+native-country: Poland, Count: 15
+Precision: 1.0000 | Recall: 0.2500 | F1: 0.4000
+native-country: Portugal, Count: 8
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Puerto-Rico, Count: 25
+Precision: 0.5000 | Recall: 0.5000 | F1: 0.5000
+native-country: Scotland, Count: 2
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: South, Count: 11
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country: Taiwan, Count: 10
+Precision: 1.0000 | Recall: 0.4286 | F1: 0.6000
+native-country: Thailand, Count: 4
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country: Trinadad&Tobago, Count: 2
+Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country: United-States, Count: 5,826
+Precision: 0.7264 | Recall: 0.2735 | F1: 0.3974
+native-country: Vietnam, Count: 7
+Precision: 0.5000 | Recall: 0.5000 | F1: 0.5000
+native-country: Yugoslavia, Count: 5
+Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
