@@ -7,6 +7,7 @@ from pydantic import BaseModel, Field
 from ml.data import apply_label, process_data
 from ml.model import inference, load_model
 
+
 # DO NOT MODIFY
 class Data(BaseModel):
     age: int = Field(..., example=37)
@@ -26,6 +27,7 @@ class Data(BaseModel):
     hours_per_week: int = Field(..., example=40, alias="hours-per-week")
     native_country: str = Field(..., example="United-States", alias="native-country")
 
+
 path = "/home/amassey/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/model/encoder.pkl"
 encoder = load_model(path)
 
@@ -35,11 +37,12 @@ model = load_model(path)
 # TODO: create a RESTful API using FastAPI
 app = FastAPI()
 
+
 # TODO: create a GET on the root giving a welcome message
 @app.get("/")
 async def get_root():
-    """ Say hello!"""
-    return { "message": "Hello!"}
+    """Say hello!"""
+    return {"message": "Hello!"}
 
 
 # TODO: create a POST on a different path that does model inference
@@ -68,11 +71,10 @@ async def post_inference(data: Data):
         # use data as data input
         # use training = False
         # do not need to pass lb as input
-        X = data,
-        categorical_features= cat_features,
-        training = False,
-        encoder = encoder
-
+        X=data,
+        categorical_features=cat_features,
+        training=False,
+        encoder=encoder,
     )
     _inference = inference(model=model, X=data_processed)
     return {"result": apply_label(_inference)}

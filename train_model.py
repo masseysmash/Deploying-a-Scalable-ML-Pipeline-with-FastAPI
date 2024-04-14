@@ -37,14 +37,14 @@ cat_features = [
 
 # TODO: use the process_data function provided to process the data.
 X_train, y_train, encoder, lb = process_data(
-    X = train,
-    categorical_features = cat_features,
-    label = 'salary',
-    training= True,
-    # use the train dataset 
+    X=train,
+    categorical_features=cat_features,
+    label="salary",
+    training=True,
+    # use the train dataset
     # use training=True
     # do not need to pass encoder and lb as input
-    )
+)
 
 X_test, y_test, _, _ = process_data(
     test,
@@ -65,9 +65,7 @@ encoder_path = os.path.join(project_path, "model", "encoder.pkl")
 save_model(encoder, encoder_path)
 
 # load the model
-model = load_model(
-    model_path
-) 
+model = load_model(model_path)
 
 # TODO: use the inference function to run the model inferences on the test dataset.
 preds = inference(model, X_test)
@@ -75,7 +73,7 @@ preds = inference(model, X_test)
 # Calculate and print the metrics
 p, r, fb = compute_model_metrics(y_test, preds)
 print(f"Precision: {p:.4f} | Recall: {r:.4f} | F1: {fb:.4f}")
-#print(test.head())
+# print(test.head())
 # TODO: compute the performance on model slices using the performance_on_categorical_slice function
 # iterate through the categorical features
 for col in cat_features:
@@ -83,14 +81,14 @@ for col in cat_features:
     for slicevalue in sorted(test[col].unique()):
         count = test[test[col] == slicevalue].shape[0]
         p, r, fb = performance_on_categorical_slice(
-            data = test,
+            data=test,
             column_name=col,
-            slice_value= slicevalue,
-            categorical_features= cat_features,
-            label='salary',
-            encoder = encoder,
-            lb = lb,
-            model = model
+            slice_value=slicevalue,
+            categorical_features=cat_features,
+            label="salary",
+            encoder=encoder,
+            lb=lb,
+            model=model,
             # your code here
             # use test, col and slicevalue as part of the input
         )
