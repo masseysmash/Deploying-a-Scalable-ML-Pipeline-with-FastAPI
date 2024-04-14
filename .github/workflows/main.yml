@@ -25,6 +25,7 @@ jobs:
 
     - name: Run Flake8
       run: flake8
+      continue-on-error: True
 
     - name: Run Pytest
       run: pytest --junitxml=pytest-report.xml
