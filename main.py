@@ -1,5 +1,3 @@
-import os
-
 import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
@@ -25,10 +23,12 @@ class Data(BaseModel):
     capital_gain: int = Field(..., example=0, alias="capital-gain")
     capital_loss: int = Field(..., example=0, alias="capital-loss")
     hours_per_week: int = Field(..., example=40, alias="hours-per-week")
-    native_country: str = Field(..., example="United-States", alias="native-country")
+    native_country: str = Field(..., example="United-States",
+                                 alias="native-country")
 
 
-path = "/home/amassey/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/model/encoder.pkl"
+path = "/home/amassey/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/" + \
+        "model/encoder.pkl"
 encoder = load_model(path)
 
 path = "/home/amassey/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/model/model.pkl"
