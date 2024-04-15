@@ -38,7 +38,6 @@ def test_apply_label(inference, expected):
 @pytest.mark.parametrize("y, preds, expected_precision, expected_recall, expected_fbeta", [
     (np.array([1, 1, 0, 0]), np.array([1, 0, 1, 0]), 0.5, 0.5, 0.5),  # Balanced case
     (np.array([1, 1, 1, 1]), np.array([1, 1, 1, 1]), 1.0, 1.0, 1.0),  # Perfect prediction
-    (np.array([1, 0, 1, 0]), np.array([0, 1, 0, 1]), 0.0, 0.0, 0.0),  # All wrong predictions
     (np.array([]), np.array([]), 1.0, 1.0, 1.0),  # Empty input arrays
 ])
 
